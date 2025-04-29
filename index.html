@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager Web Application</title>
+    <script src="index.js" defer></script>
+    <style src="index.css"></style>
+</head>
+<body>
+    <h1 id="title">Task Manager</h1>
+    <div id="taskCreator">
+        <label for="taskName">Task Name: </label>
+        <input type="text" id="taskName" required name="inputField">
+
+        <label for="priority">Priority: </label>
+        <input type="option" id="important" required name="inputField">
+
+        <label for="important">Important: </label>
+        <input type="checkbox" id="important" required name="inputField">
+
+
+
+        <button type="submit" id="submit">Add Task</button>
+    </div>
+    <div id="taskManager"></div>
+</body>
+</html>
