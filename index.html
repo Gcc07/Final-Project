@@ -14,14 +14,16 @@
         <input type="text" id="taskName" required name="inputField">
 
         <label for="priority">Priority: </label>
-        <input type="option" id="important" required name="inputField">
+        <select name="priority" id="priority">
+            <option value="Low" selected>Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+        </select>   
 
         <label for="important">Important: </label>
         <input type="checkbox" id="important" required name="inputField">
 
-
-
-        <button type="submit" id="submit">Add Task</button>
+        <button type="submit" id="addTaskButton">Add Task</button>
     </div>
     <div id="taskManager"></div>
 </body>
