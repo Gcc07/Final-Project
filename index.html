@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Manager Web Application</title>
-    <script src="index.js" defer></script>
-    <style src="index.css"></style>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <h1 id="title">Task Manager</h1>
-    <div id="taskCreator">
+    <div id="taskCreator" class="top">
         <label for="taskName">Task Name: </label>
         <input type="text" id="taskName">
 
@@ -23,7 +22,10 @@
         <input type="checkbox" id="important" checked>
 
         <button type="submit" id="addTaskButton">Add Task</button>
+        
+        <br>
     </div>
     <div id="taskManager"></div>
+    <script src="index.js" defer></script>
 </body>
 </html>
